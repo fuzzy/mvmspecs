@@ -1,0 +1,18 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.",
+    "package": "perl",
+    "version": "5.18.4",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "http://www.cpan.org/src/5.0/%package%-%version%.tar.gz",
+
+    "configure": {
+        "cmd": "./Configure",
+        "args": [
+            "-des",
+            "-Dprefix=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%",
+            "-Dusethreads"
+        ]
+    }
+}
