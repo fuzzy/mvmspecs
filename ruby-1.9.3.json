@@ -1,0 +1,13 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.ruby-lang.org",
+    "package": "ruby",
+    "version": "1.9.3",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "https://cache.ruby-lang.org/pub/ruby/1.9/%package%-%version%-p551.tar.gz",
+
+    "configure": {
+        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%", "--disable-install-doc"]
+    }
+}
