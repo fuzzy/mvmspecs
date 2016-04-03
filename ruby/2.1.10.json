@@ -3,7 +3,7 @@
     "email": "fuzzy@fumanchu.org",
     "homepage": "http://www.ruby-lang.org",
     "package": "ruby",
-    "version": "2.1.0",
+    "version": "2.1.10",
     "license": "http://www.opensource.org/licenses/mit-license.html",
     "source": "https://cache.ruby-lang.org/pub/ruby/2.1/%package%-%version%.tar.gz",
 
