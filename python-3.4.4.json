@@ -1,0 +1,13 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.python.org",
+    "package": "Python",
+    "version": "3.4.4",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "https://www.python.org/ftp/python/%version%/Python-%version%.tar.xz",
+
+    "configure": {
+        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
+    }
+}
