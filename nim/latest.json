@@ -12,7 +12,7 @@
     },
 
     "compile": {
-        "cmd": "./bootstrap.sh"
+        "cmd": "/bin/bash ./bootstrap.sh"
     },
 
     "install": {
