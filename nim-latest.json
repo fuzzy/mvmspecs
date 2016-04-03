@@ -1,0 +1,22 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.",
+    "package": "Nim",
+    "version": "devel",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "https://github.com/nim-lang/Nim/archive/%version%.zip",
+
+    "configure": {
+        "enable": false
+    },
+
+    "compile": {
+        "cmd": "./bootstrap.sh"
+    },
+
+    "install": {
+        "cmd": "./install.sh",
+        "args": ["${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%"]
+    }
+}

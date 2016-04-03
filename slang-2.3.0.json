@@ -1,0 +1,9 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.python.org",
+    "package": "slang",
+    "version": "2.3.0",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "http://www.jedsoft.org/releases/slang/slang-2.3.0.tar.bz2"
+}
