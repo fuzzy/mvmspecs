@@ -1,0 +1,9 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.python.org",
+    "package": "bash",
+    "version": "2.05b",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "ftp://ftp.gnu.org/gnu/bash/bash-2.05b.tar.gz"
+}
