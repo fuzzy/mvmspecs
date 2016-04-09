@@ -8,6 +8,6 @@
     "source": "https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tar.xz",
 
     "configure": {
-        "args": ["--prefix=${HOME}/.runtime/.packages/%package%/%osnamel%/%arch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
+        "args": ["--prefix=${HOME}/.runtime/.packages/%package%/%osname%/%osarch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
     }
 }

@@ -8,6 +8,6 @@
     "source": "https://www.python.org/ftp/python/%version%/Python-%version%.tar.xz",
 
     "configure": {
-        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
+        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
     }
 }

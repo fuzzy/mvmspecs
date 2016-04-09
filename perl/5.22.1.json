@@ -11,7 +11,7 @@
         "cmd": "./Configure",
         "args": [
             "-des",
-            "-Dprefix=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%",
+            "-Dprefix=${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%",
             "-Dusethreads"
         ]
     }

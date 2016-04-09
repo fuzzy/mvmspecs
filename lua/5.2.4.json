@@ -11,13 +11,13 @@
 
     "compile": {
         "cmd": "make",
-        "args": ["%osnamel%"],
+        "args": ["%osname%"],
         "env": []
     },
 
     "install": {
         "cmd": "make",
-        "args": ["install", "INSTALL_TOP=${HOME}/.mvm/packages/instroot/%package%/%osnamel%/%arch%/%version%"],
+        "args": ["install", "INSTALL_TOP=${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%"],
         "env": []
     }
 }
