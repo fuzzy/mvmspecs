@@ -8,6 +8,6 @@
     "source": "https://cache.ruby-lang.org/pub/ruby/2.0/%package%-%version%.tar.gz",
 
     "configure": {
-        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%", "--disable-install-doc"]
+        "args": ["--prefix=%prefix%", "--disable-install-doc"]
     }
 }
