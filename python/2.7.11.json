@@ -5,9 +5,9 @@
     "package": "Python",
     "version": "2.7.11",
     "license": "http://www.opensource.org/licenses/mit-license.html",
-    "source": "https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tar.xz",
+    "source": "https://www.python.org/ftp/python/%version%/Python-%version%.tar.xz",
 
     "configure": {
-        "args": ["--prefix=${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
+        "args": ["--prefix=%prefix%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
     }
 }
