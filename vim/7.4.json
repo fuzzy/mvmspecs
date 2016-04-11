@@ -1,0 +1,9 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.python.org",
+    "package": "vim",
+    "version": "7.4",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "ftp://ftp.vim.org/pub/vim/unix/vim-%version%.tar.bz2"
+}
