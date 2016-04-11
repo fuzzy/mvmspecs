@@ -17,6 +17,6 @@
 
     "install": {
         "cmd": "./install.sh",
-        "args": ["${HOME}/.mvm/packages/instroot/%package%/%osname%/%osarch%/%version%"]
+        "args": ["%prefix%"]
     }
 }
