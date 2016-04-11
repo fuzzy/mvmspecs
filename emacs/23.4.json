@@ -1,0 +1,9 @@
+{
+    "packager": "Mike 'Fuzzy' Partin",
+    "email": "fuzzy@fumanchu.org",
+    "homepage": "http://www.python.org",
+    "package": "emacs",
+    "version": "23.4",
+    "license": "http://www.opensource.org/licenses/mit-license.html",
+    "source": "ftp://ftp.gnu.org/gnu/emacs/emacs-%version%.tar.gz"
+}
