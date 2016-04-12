@@ -5,7 +5,7 @@
     "package": "Python",
     "version": "3.5.1",
     "license": "http://www.opensource.org/licenses/mit-license.html",
-    "source": "https://www.python.org/ftp/python/%version%/Python-%version%.tar.xz",
+    "source": "http://clunk/python/Python-%version%.tar.xz",
 
     "configure": {
         "args": ["--prefix=%prefix%", "--with-signal-module", "--with-fpectl", "--with-ensurepip=install"]
